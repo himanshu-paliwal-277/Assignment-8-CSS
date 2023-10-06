@@ -1,0 +1,4 @@
+Z Index :-
+        z-index is a CSS property that used to define the order of overlapping an elements. Elements with a higher index will be placed on top of elements with a lower index.The default z-index value in 0 And z-index can be negative value.
+        
+        Z index only works on positioned elements like - position: absolute ,relative ,fixed & etc.

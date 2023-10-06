@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-5</title>
+    <style>
+        .box {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            color: white;
+            padding: 4px;
+            box-sizing: border-box;
+        }
+
+        .box-1 {
+            background-color: blue;
+        }
+        
+        .box-2 {
+            background-color: rgb(1, 196, 196);
+            top: 50px;
+            left: 50px;
+        }
+        
+        .box-3 {
+            background-color: red;
+            top: 100px;
+            left: 100px;
+        }
+        
+        .box-4 {
+            background-color: green;
+            top: 150px;
+            left: 150px;
+        }
+        
+        .box-5 {
+            background-color: blueviolet;
+            top: 200px;
+            left: 200px;
+        }
+
+        .container2 {
+            position: relative;
+            left: 50%;
+            text-align: center;
+        }
+        
+        .container2 .box {
+            padding-top: 50px;
+        }
+
+        .container2 .box-1{
+            z-index: 5;
+        }
+        
+        .container2 .box-2{
+            z-index: 4;
+        }
+        
+        .container2 .box-3{
+            z-index: 3;
+        }
+        
+        .container2 .box-4{
+            z-index: 2;
+        }
+        
+        .container2 .box-5{
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="box box-1">1</div>
+        <div class="box box-2">2</div>
+        <div class="box box-3">3</div>
+        <div class="box box-4">4</div>
+        <div class="box box-5">5</div>
+    </div>
+    <div class="container2">
+        <div class="box box-1">1 <br>z-index 5</div>
+        <div class="box box-2">2 <br>z-index 4</div>
+        <div class="box box-3">3 <br>z-index 3</div>
+        <div class="box box-4">4 <br>z-index 2</div>
+        <div class="box box-5">5 <br>z-index 1</div>
+    </div>
+</body>
+</html>

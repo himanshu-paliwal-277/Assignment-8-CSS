@@ -1,0 +1,6 @@
+The by default value of position property is static. 
+Relative :-
+            If we use relative (position: relative;) value of position property in CSS  then we move the element from its original position without impecting the other content of web page. After using the position value relative we can use the left, right, top and bottom property to move the box.  
+
+Absolute :-
+            If we use absolute (position: absolute;) value of position property in CSS  then we move the element from its parent element not from its position. After using this absolute we can use the left, right, top and bottom property to move the box. This is main difference in position and absolute.
